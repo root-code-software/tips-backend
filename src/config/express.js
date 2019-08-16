@@ -2,7 +2,6 @@ const express = require('express');
 // const morgan = require('morgan');
 
 const app = express()
-const router = express.Router();
 
 //Middlewares
 // app.use(morgan('dev'));
