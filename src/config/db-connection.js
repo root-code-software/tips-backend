@@ -15,8 +15,9 @@ const db = () => {
 
 		    const ObjectId = mongoose.Types.ObjectId;
 		    ObjectId.prototype.valueOf = function() {
-		    return this.toString();
+			return this.toString();
 		};
+		console.log(`🚀 Server ready at http://localhost:${config.PORT}`)
 	});
 };
 
