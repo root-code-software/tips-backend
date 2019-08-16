@@ -1,0 +1,28 @@
+{
+  "name": "root",
+  "version": "0.0.1",
+  "description": "Root Software C.A.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "nodemon ./src/index.js -e js,hbs,html,css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/root-code-software/root-code-software.github.io.git"
+  },
+  "author": "Saikilito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/root-code-software/root-code-software.github.io/issues"
+  },
+  "homepage": "https://github.com/root-code-software/root-code-software.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.4",
+    "mongoose": "^5.6.9",
+    "morgan": "^1.9.1"
+  }
+}
